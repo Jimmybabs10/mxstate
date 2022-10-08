@@ -1,0 +1,115 @@
+header {
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+    padding: 100px;
+}
+#header-text {
+    color: rgb(255, 255, 255);
+    border: 2px solid cornflowerblue;
+}
+nav {
+    border-bottom: 1px solid cornflowerblue;
+    padding: 35px 0px 35px 0px;
+    margin: 10px 50px 10px 50px;
+    background-color: white;
+}
+a {
+    font-size: larger;
+    text-decoration: none;
+    float: right;
+}
+a:hover {
+    color: goldenrod;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: "Lucida Console", arial;
+}
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: rgb(53, 74, 143);
+}
+p {
+    text-align: center;
+    font: 1em sans-serif;
+}
+#mxstate {
+    color: rgb(56, 4, 56);
+    margin-left: 5px;
+    font-size: xx-large;
+    font-family: "Lucida Handwriting";
+}
+.navigation{
+    float: right;
+
+    margin: 0px 25px 0px 0px;
+}
+#quick-access {
+    padding: 50px;
+    margin-top: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.quick-access {
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 2px 2px rgb(163, 150, 150);
+}
+#button{
+    background: linear-gradient(to right, rgb(111, 57, 133), rgb(121, 54, 121),rgb(136, 55, 93));
+    border-radius: 50%;
+    border-color: white;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+#pop-text {
+    border-left: 2px solid rgb(19, 18, 19);
+    padding-left: 2px;
+    font-size: xx-large;
+    color: rgb(53, 74, 143);
+}
+#pop-lodge {
+    margin: 10px 0px 30px 0px;
+}
+#images {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lodge-images {
+    width: 300px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(168, 166, 166);
+}
+#intro {
+    margin: 100px;
+}
+#partner {
+    background-color: rgb(255, 248, 240);
+    margin-top: 100px;
+}
+#partner > p {
+    margin-top: 50px;
+}
+#partners-img {
+    display: flex;
+    justify-content: space-around;
+}
+.partners > img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 0px 0px;
+}
+.img-label > p {
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue
+}
